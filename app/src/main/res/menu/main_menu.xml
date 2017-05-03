@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_1"
+        android:orderInCategory="80"
+        android:title="menu_1"
+        android:icon="@mipmap/library_clean"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_2"
+        android:orderInCategory="90"
+        android:title="menu_2"
+        android:icon="@mipmap/library_cloud"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_3"
+        android:orderInCategory="100"
+        android:title="menu_3"
+        android:icon="@mipmap/library_device"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_4"
+        android:orderInCategory="110"
+        android:title="menu_4"
+        android:icon="@mipmap/library_document"
+        app:showAsAction="never" />
+</menu>
